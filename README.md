@@ -1,14 +1,14 @@
-# group4_project
+#### Group4_project
 # Who’s hotter: Austin vs Dallas
 
 ### Project’s track: Housing- Real Estate
 
 **Group members:**
-*Garret Bradley*
-*Martha Griggs*
-*Bruce Ly*
-*Soujanya Pentyala*
-*Claudia Yurrita*
+*Garret Bradley,*
+*Martha Griggs,*
+*Bruce Ly,*
+*Soujanya Pentyala,*
+*Claudia Yurrita,*
 
 ### Outline:
 
@@ -29,7 +29,7 @@ What factor -if any- affects the most to the decision?
 ![Realtor site](https://www.realtor.com/research/data/)
  
 
-|## TASK |## RESPONSIBLE|
+|TASK |RESPONSIBLE|
 ------|------|
 | -[] Get the info                          | TBD|
 | -[] Make data frame and cleansing         | TBD|
