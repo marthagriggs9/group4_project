@@ -24,10 +24,12 @@ What factor -if any- affects the most to the decision?
 * Price change (pre vs post pandemic)
 
 ### Datasets to be used:
-![Federal Reserve](https://fred.stlouisfed.org/categories)
+https://fred.stlouisfed.org/categories
 
 ![Realtor site](https://www.realtor.com/research/data/)
  
+<a href="https://www.realtor.com/research/data/" target="_blank">Google</a>
+
 
 |TASK |RESPONSIBLE|
 ------|------|
