@@ -27,7 +27,6 @@ What factor -if any- affects the most to the decision?
 
 <a href="https://fred.stlouisfed.org/categories/" target="_blank">stlouisfed</a>
 
- 
 <a href="https://www.realtor.com/research/data/" target="_blank">Realtor site</a>
 
 
