@@ -28,7 +28,7 @@ https://fred.stlouisfed.org/categories
 
 ![Realtor site](https://www.realtor.com/research/data/)
  
-<a href="https://www.realtor.com/research/data/" target="_blank">Google</a>
+<a href="https://www.realtor.com/research/data/" target="_blank">Realtor site</a>
 
 
 |TASK |RESPONSIBLE|
