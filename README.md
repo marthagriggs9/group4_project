@@ -1,7 +1,6 @@
 #### Group4_project
-# Who’s hotter: Austin vs Dallas
 
-### Project’s track: Housing- Real Estate
+Project Title: Compare Housing Market "Hotness": Dallas vs Austin
 
 **Group members:**
 *Garret Bradley,*
@@ -12,18 +11,19 @@
 
 ### Outline:
 
-A “hot market” is a real estate market with low inventory combined with lots of buyers looking for the perfect place. We are interested in comparing what factors could affect the decision of a house bought in Dallas, Texas versus Austin, Texas.  
+A “hot market"(hotness) is a real estate market with low inventory combined with lots of buyers looking for the perfect place.
+For this project, our goal is to compare housing inventory (count), price point($) and property tax(%) among the two cities Dallas, Tx and Austin,Tx & determine which is more desirable based on these three factors. We will support our conclusion using visualization and metrics derived from the analysis.
 
 ### Question:
-What factor -if any- affects the most to the decision?
+Based on the three factors which of the two cities is hotter?
 
-* House availability (zip code)
-* Pricing 
-* Year Built
-* Square feet
-* Price change (pre vs post pandemic)
+### Factors used for comparison
+* House availability
+* Pricing
+* Property tax
 
 ### Datasets to be used:
+Time period of data used for analysis :  2015 to till date
 
 <a href="https://fred.stlouisfed.org/categories/" target="_blank">stlouisfed</a>
 
@@ -40,5 +40,3 @@ What factor -if any- affects the most to the decision?
 | -[] Written analysis and conclusions      | TBD|
 | -[] General Review                        | TBD|
 | -[] Upload documents to Github            | TBD|
-
-
