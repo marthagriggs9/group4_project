@@ -20,7 +20,7 @@ Based on the three factors which of the two cities is hotter?
 ### Factors used for comparison
 * House availability
 * Pricing
-* Property tax
+* Days on Market
 
 ### Datasets to be used:
 Time period of data used for analysis :  2015 to till date
