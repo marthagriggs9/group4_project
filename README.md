@@ -40,3 +40,6 @@ Time period of data used for analysis :  2015 to till date
 | -[] Written analysis and conclusions      | TBD|
 | -[] General Review                        | TBD|
 | -[] Upload documents to Github            | TBD|
+
+Definitions:
+Days on Market: The median number of days property listings spend on the market within the specified geography during the specified month. Time spent on the market is defined as the time between the initial listing of a property and either its closing date or the date it is taken off the market.
