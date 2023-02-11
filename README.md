@@ -12,7 +12,7 @@ Project Title: Compare Housing Market "Hotness": Dallas vs Austin
 ### Outline:
 
 A “hot market"(hotness) is a real estate market with low inventory combined with lots of buyers looking for the perfect place.
-For this project, our goal is to compare housing inventory (count), price point($) and property tax(%) among the two cities Dallas, Tx and Austin,Tx & determine which is more desirable based on these three factors. We will support our conclusion using visualization and metrics derived from the analysis.
+For this project, our goal is to compare housing inventory (count), price point($) and days on market (time) among the two cities Dallas, Tx and Austin,Tx & determine which is more desirable based on these three factors. We will support our conclusion using visualization and metrics derived from the analysis.
 
 ### Question:
 Based on the three factors which of the two cities is hotter?
