@@ -32,11 +32,14 @@ Time period of data used for analysis :  2015 to till date
 
 |TASK |RESPONSIBLE|
 ------|------|
-| -[] Get the info                          | TBD|
-| -[] Make data frame and cleansing         | TBD|
-| -[] Find possible relations               | TBD|
-| -[] Create plot charts for visualization  | TBD|
-| -[] Statistical analysis                  | TBD|
+| -[] Get the info                          | MG|
+| -[] Make data frame and cleansing         | CY|
+| -[] Find possible relations               | CY MG SP|
+| -[] Create plot charts for visualization  | CY MG SP|
+| -[] Statistical analysis                  | CY MG|
 | -[] Written analysis and conclusions      | TBD|
+| -[] API development and visualization     | BL|
 | -[] General Review                        | TBD|
-| -[] Upload documents to Github            | TBD|
+| -[] Upload documents to Github            | MG|
+| -[] Read.Me document                      |Everybody|
+| -[] Powerpoint presentation               | TBD| 
