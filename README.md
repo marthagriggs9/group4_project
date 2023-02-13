@@ -92,8 +92,14 @@ DAYS ON THE MARKET
 - XXXXXXX
 -The correlation between Days on Market in Austin and Dallas  is 0.658
 -Days on market passed from 74 and 83 to 70 and 45 in Asutin and Dallas. This means decreases of 5% and 46% in both cities. 
-
+          !!!! DAYS ON MARKET GRAPH SOUYANJA
         !!!SCATTER DALLAS AUSTIN (Scatter_plot_Days_on_Market.png)
+
+
+
+
+
+
 
 
 
