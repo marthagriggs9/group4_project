@@ -12,7 +12,9 @@
 ### Outline:
 
 A “hot market"(hotness) is a real estate market with low inventory combined with lots of buyers looking for the perfect place.
+
 For this project, our goal is to compare housing inventory (count), price point($) and day on market(count) among the two cities Dallas and Austin & determine which is more desirable based on these three factors. We will support our conclusion using visualization and metrics derived from the analysis.
+
 
 ### Question:
 
@@ -20,9 +22,10 @@ Based on the three factors which of the two cities is "hotter"?
 
 ### Factors used for comparison
 
-**House availability**
-**Pricing**
-**Days of properties on the market**
+* House availability
+* Pricing
+* Days on Market
+
 
 ### Datasets to be used:
 
@@ -151,4 +154,10 @@ From looking at the data we can deduce the behavour of the inventories in Austin
 
 
 
+
+=======
+| -[] Upload documents to Github            | TBD|
+
+Definitions:
+Days on Market: The median number of days property listings spend on the market within the specified geography during the specified month. Time spent on the market is defined as the time between the initial listing of a property and either its closing date or the date it is taken off the market.
 
