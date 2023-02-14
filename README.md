@@ -45,10 +45,10 @@ Redfin 2023, Redfin website, California USA, accesed 08 February 2023, <https://
 | -[] Statistical analysis                  | CY MG|
 | -[] Written analysis and conclusions      | TBD|
 | -[] API development and visualization     | BL|
-| -[] General Review                        | TBD|
+| -[] General Review                        | GB|
 | -[] Upload documents to Github            | MG|
-| -[] Read.Me document                      |Everybody|
-| -[] Powerpoint presentation               | TBD| 
+| -[] Read.Me document                      |BL CY GB MG SP|
+| -[] Powerpoint presentation               |BL CY GB MG SP| 
 
 ## Overview
 
@@ -58,11 +58,12 @@ In the last years ....
 
 ## Definitions:
 
-***Days on Market***: The median number of days property listings spend on the market within the specified geography during the specified month. Time spent on the market is defined as the time between the initial listing of a property and either its closing date or the date it is taken off the market.
+***Days on Market***:
+The number of days between the date the home was listed for sale and when the home went off-market/pending sale covering all homes with an off-market date during a given time period where 50% of the off-market homes sat longer on the market and 50% went off the market faster. Excludes homes that stay on the market for more than 1 year. 
 
-***Inventories***:
+***Inventories***:Total number of active listings on the last day of a given time period.
 
-***Mean Average Price***:
+***Median Average Price***:The final home sale price covering all homes with a sale date during a given time period where 50% of the sales were above this price and 50% were below this price.
 
 ## Outline of the project
 
@@ -78,21 +79,16 @@ All of the above shoul be indicators that one house market has more movility-and
 
 ## Current Offer on Austin
 
-As of February 2023  we had xxxx houses listed in the Austin market.
+As of February 13, 2023 Zillow had 350 listings just in Austin county. There are 5 counties included in the metropolitna area.  
 
           !!!!!! BRUCE MAP WITH THE REQUESTED HOUSES !!!!!!
-
-            !!!!!! SOME KIND OF INTRODUCTION !!!!!!
+        
 
 ## Current Offer on Dallas
 
-As of  February 2023  we had xxxx houses listed in the Austin market.
+As of February 13, 2023 just in Dallas county there were 4023 houses on sale. The metroplex includes 19 counties.
 
           !!!!!! BRUCE MAP WITH THE REQUESTED HOUSES !!!!!!
-
-            !!!!!! SOME KIND OF INTRODUCTION !!!!!!
-
-
 
 
 ## PRICES
@@ -100,38 +96,36 @@ As of  February 2023  we had xxxx houses listed in the Austin market.
 -Historically the prices in both cities show an ascendent trend
 -Austin prices have gone from a median sale price of $190,000 in February 2012 up to  $458,000 as of December 2022. This means an increase of 41% in our timeframe.
 -On the other hand Dallas has seen its prices up from $160,000 to $402,000, a 51% increase. 
--The correlation between Median Sale Price in Austin and Dallas is 0.981, which means they move alike.
-
 
 
          !!!!!MARTHAS GRAPH WITH BOTH PRICEs!!!!
 
-![Relation between Prices in Austin and Dallas](.\images\Scatter_plot_Median_Sale_Price.png)
+![Relation between Prices in Austin and Dallas](XXXXXX)
 
 ## INVENTORIES
 
--The inventories in both cities differ greatly, however the trend followed is similar in both cities.
--Inventories in Austin and Dallas went from 6,541 and 17,066 houses to 73,76 and 10,137, this is an increase for Austin of 6% and a decrease for Dallas of 41%, respectively
--The correlation between Inventory in Austin and Dallas is 0.696, so both cities have a moderate relation.
+-The inventories in both cities differ greatly, however the gap has decreased greatly sin ce the pandemic.
+
+-In the period analyzed inventories in Austin and Dallas went from 6,541 and 17,066 houses to 73,76 and 10,137, this is an increase for Austin of 6% and a decrease for Dallas of 41%, respectively
+-
 
 ![Inventories over time](.\images\Bar_graph_Inventory.png)
 
-![Relation between Inventories in Austin and Dallas](.\images\Scatter_plot_Inventory.png)
+![Relation between Inventories in Austin and Dallas](.\data\Summary_variables.csv)
 
 ## DAYS ON THE MARKET
 
 - XXXXXXX     Soujanya's findings!!!!
--The correlation between Days on Market in Austin and Dallas  is 0.658, showing a positive moderate relation between the two indicators.
 -Days on market passed from 74 and 83 to 70 and 45 in Asutin and Dallas. This means decreases of 5% and 46% in both cities. 
 
-          !!!! DAYS ON MARKET GRAPH SOUYANJA
-![Relation between Days on the Market in Austin and Dallas] (.\images\Scatter_plot_Days_on_Market.png)
+          !!!! DAYS ON MARKET GRAPH SOUJANYA
+
 
 # HYPOTHESIS TEST
 
 ## Question: Is Austin real estate market hotter than Dallas's?
 
-First we calculated the metrics / parameters  of the variables on both markets. 
+First we calculated the metrics for the variables on both markets. 
 
 |City|Inventory_Mean|Median Sale Price_Mean| Days on Market_Mean|
 |---|----|---|---|
@@ -144,9 +138,22 @@ Austin|   2.375871e+06|           8187.569583|          150.865414|
 Dallas|   1.215040e+07|            5284.641456|          148.265649|
 
 
-From looking at the data we can deduce the behavour of the inventories in Austin and Dallas are totally different. However we can not say the smae for the others. Running Ttests we saw the prices and days on the market variables also differ  between cities. Now we can prove if these variables are bigger/smaller in Asutin so they prove that market is more 'desirable' than Dallas.    
+From looking at the data we can deduce the behavour of the inventories in Austin and Dallas are totally different. However we can not say the same for the others. Running Ttests we saw the prices and days on the market variables also differ  between cities. 
 
+These resultas are presented below:
 
+Calculations for Inventory t-test: t-statistic(-20.5068) , p-value ( 0.0000)
+As the p-value is less than our critical value (0.05) the hypothesis is rejected
+
+Calculations for Median Sale Price t-test: t-statistic( 3.7645) , p-value ( 0.0002)
+As the p-value is less than our critical value (0.05) the hypothesis is rejected
+
+Calculations for Days on Market t-test: t-statistic(-2.3642) , p-value ( 0.0188)
+As the p-value is less than our critical value (0.05) the hypothesis is rejected
+
+These findings imply both markets are different and we can choose between them.
+
+Conclusion:
 
 
 
