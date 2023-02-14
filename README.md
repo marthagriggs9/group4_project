@@ -28,6 +28,7 @@ Based on the three factors which of the two cities is "hotter"?
 
 Time period of data used for analysis :  February 2012 to December 2022
 
+Data provided by RedFin.
 Redfin 2023, Redfin website, California USA, accesed 08 February 2023, <https://www.redfin.com/news/data-center/> 
 
 [Link to REDFIN HOMEPAGE](https://www.redfin.com)
@@ -109,9 +110,9 @@ As of February 13, 2023 just in Dallas county there were 4023 houses on sale. Th
 -In the period analyzed inventories in Austin and Dallas went from 6,541 and 17,066 houses to 73,76 and 10,137, this is an increase for Austin of 6% and a decrease for Dallas of 41%, respectively
 -
 
-![Inventories over time](.\images\Bar_graph_Inventory.png)
+![Inventories over time](images\Bar_graph_Inventory.png)
 
-![Relation between Inventories in Austin and Dallas](.\data\Summary_variables.csv)
+![Relation between Inventories in Austin and Dallas](data\Summary_variables.csv)
 
 ## DAYS ON THE MARKET
 
