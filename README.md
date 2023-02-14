@@ -84,7 +84,7 @@ As of February 13, 2023 Zillow had 350 listings just in Austin county. There are
 
 As of February 13, 2023 just in Dallas county there were 4023 houses on sale. The metroplex includes 19 counties.
 
-![Map of houses on sale. Dallas](./images/Dallas_map.png)
+![Map of houses on sale. Dallas](./images/dallas_map.png)
 
 
 ## PRICES
@@ -105,7 +105,7 @@ As of February 13, 2023 just in Dallas county there were 4023 houses on sale. Th
 
 ![Inventories over time](./images/Bar_graph_Inventory.png)
 
-![Relation between Inventories in Austin and Dallas](./data/Summary_variables.csv)
+
 
 ## DAYS ON THE MARKET
 
