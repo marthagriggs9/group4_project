@@ -51,11 +51,6 @@ Redfin 2023, Redfin website, California USA, accesed 08 February 2023, <https://
 | -[] Read.Me document                      |BL CY GB MG SP|
 | -[] Powerpoint presentation               |BL CY GB MG SP| 
 
-## Overview
-
-The real estate market in US ..... in Texas !!!!!!!FILL THIS PLEASE
-In the last years ....
-
 
 ## Definitions:
 
@@ -76,51 +71,52 @@ We decided to run tests of three different variables (inventories, sale prices a
 -Days on Market in Dallas are bigger than Austin's
 -Prices in Dallas are lower than Austin's
 
-All of the above shoul be indicators that one house market has more movility-and demand- than the other.
+All of the above shoul be indicators that one house market has more movility -and demand- than the other.
 
 ## Current Offer on Austin
 
 As of February 13, 2023 Zillow had 350 listings just in Austin county. There are 5 counties included in the metropolitna area.  
 
-          !!!!!! BRUCE MAP WITH THE REQUESTED HOUSES !!!!!!
+![Map of houses on sale. Austin](./images/Austin_map.png)
         
 
 ## Current Offer on Dallas
 
 As of February 13, 2023 just in Dallas county there were 4023 houses on sale. The metroplex includes 19 counties.
 
-          !!!!!! BRUCE MAP WITH THE REQUESTED HOUSES !!!!!!
+![Map of houses on sale. Dallas](./images/Dallas_map.png)
 
 
 ## PRICES
 
--Historically the prices in both cities show an ascendent trend
--Austin prices have gone from a median sale price of $190,000 in February 2012 up to  $458,000 as of December 2022. This means an increase of 41% in our timeframe.
--On the other hand Dallas has seen its prices up from $160,000 to $402,000, a 51% increase. 
+- Historically the prices in both cities show an ascendent trend
+- Austin prices have gone from a median sale price of $190,000 in February 2012 up to  $458,000 as of December 2022. This means an increase of 41% in our timeframe.
+- On the other hand Dallas has seen its prices up from $160,000 to $402,000, a 51% increase. 
 
 
-         !!!!!MARTHAS GRAPH WITH BOTH PRICEs!!!!
-
-![Relation between Prices in Austin and Dallas](XXXXXX)
+![Relation between Prices in Austin and Dallas](./images/MedianSalePrice2018to2022.png)
 
 ## INVENTORIES
 
--The inventories in both cities differ greatly, however the gap has decreased greatly sin ce the pandemic.
-
--In the period analyzed inventories in Austin and Dallas went from 6,541 and 17,066 houses to 73,76 and 10,137, this is an increase for Austin of 6% and a decrease for Dallas of 41%, respectively
+- The inventories in both cities differ greatly, however the gap has decreased greatly since the pandemic.
+- Dallas had the biggest amount of inventories but this trend has changed sin the pandemic what has resulted in more variability of this indicator over time. 
+- In the period analyzed inventories in Austin and Dallas went from 6,541 and 17,066 houses to 73,76 and 10,137, this is an increase for Austin of 6% and a decrease for Dallas of 41%, respectively
 -
 
-![Inventories over time](images\Bar_graph_Inventory.png)
+![Inventories over time](./images/Bar_graph_Inventory.png)
 
-![Relation between Inventories in Austin and Dallas](data\Summary_variables.csv)
+![Relation between Inventories in Austin and Dallas](./data/Summary_variables.csv)
 
 ## DAYS ON THE MARKET
 
-- XXXXXXX     Soujanya's findings!!!!
--Days on market passed from 74 and 83 to 70 and 45 in Asutin and Dallas. This means decreases of 5% and 46% in both cities. 
+- Historically properties in Austin were listed for longer on market compared to Dallas. 
+- Over the years, Dallas properties days on market pattern  shifted since the pandemic. 
+- Properties in Austin were sold within 20 days of being listed between time period 2021 to mid 2022. 
 
-          !!!! DAYS ON MARKET GRAPH SOUJANYA
+![Relation between Days on Market in Austin and Dallas](./images/days_on_market_over_time.png)
 
+
+![Ratio Price Paid vs Price Listed in Austin and Dallas](./images/average_sale_to_list_over_time.png)
 
 # HYPOTHESIS TEST
 
@@ -138,6 +134,15 @@ First we calculated the metrics for the variables on both markets.
 Austin|   2.375871e+06|           8187.569583|          150.865414|
 Dallas|   1.215040e+07|            5284.641456|          148.265649|
 
+
+Plotting the data we see again that the distribution of the inventories differs greatly. 
+In the graphs is more evident that prices and day on the market are also disimilar. 
+
+![Comparision Austin Dallas. Sale Price](./images/bloxplot_mediansaleprice.png)
+
+![Comparision Austin Dallas.Inventory](./images/bloxplot_inventory.png)
+
+![Comparision Austin Dallas. Days on Market](./images/bloxplot_daysonmarket.png)
 
 From looking at the data we can deduce the behavour of the inventories in Austin and Dallas are totally different. However we can not say the same for the others. Running Ttests we saw the prices and days on the market variables also differ  between cities. 
 
