@@ -12,9 +12,7 @@
 ### Outline:
 
 A “hot market"(hotness) is a real estate market with low inventory combined with lots of buyers looking for the perfect place.
-
 For this project, our goal is to compare housing inventory (count), price point($) and day on market(count) among the two cities Dallas and Austin & determine which is more desirable based on these three factors. We will support our conclusion using visualization and metrics derived from the analysis.
-
 
 ### Question:
 
@@ -22,10 +20,9 @@ Based on the three factors which of the two cities is "hotter"?
 
 ### Factors used for comparison
 
-* House availability
-* Pricing
-* Days on Market
-
+**House availability**
+**Pricing**
+**Days of properties on the market**
 
 ### Datasets to be used:
 
@@ -109,7 +106,7 @@ As of  February 2023  we had xxxx houses listed in the Austin market.
 
          !!!!!MARTHAS GRAPH WITH BOTH PRICEs!!!!
 
-    !!!SCATTER DALLAS AUSTIN (Scatter_plot_Median_Sale_Price.png)
+![Relation between Prices in Austin and Dallas](.\images\Scatter_plot_Median_Sale_Price.png)
 
 ## INVENTORIES
 
@@ -117,19 +114,20 @@ As of  February 2023  we had xxxx houses listed in the Austin market.
 -Inventories in Austin and Dallas went from 6,541 and 17,066 houses to 73,76 and 10,137, this is an increase for Austin of 6% and a decrease for Dallas of 41%, respectively
 -The correlation between Inventory in Austin and Dallas is 0.696, so both cities have a moderate relation.
 
-      !!! INVENTORY GRAPH WITH BOTH CITIES (Bar_graph_Inventory.png)
-     !!!SCATTER DALLAS AUSTIN (Scatter_plot_Inventory.png)
+![Inventories over time](.\images\Bar_graph_Inventory.png)
+
+![Relation between Inventories in Austin and Dallas](.\images\Scatter_plot_Inventory.png)
 
 ## DAYS ON THE MARKET
+
 - XXXXXXX     Soujanya's findings!!!!
 -The correlation between Days on Market in Austin and Dallas  is 0.658, showing a positive moderate relation between the two indicators.
 -Days on market passed from 74 and 83 to 70 and 45 in Asutin and Dallas. This means decreases of 5% and 46% in both cities. 
 
           !!!! DAYS ON MARKET GRAPH SOUYANJA
-        !!!SCATTER DALLAS AUSTIN (Scatter_plot_Days_on_Market.png)
+![Relation between Days on the Market in Austin and Dallas] (.\images\Scatter_plot_Days_on_Market.png)
 
-
-# HYPOTESIS TEST
+# HYPOTHESIS TEST
 
 ## Question: Is Austin real estate market hotter than Dallas's?
 
@@ -154,10 +152,4 @@ From looking at the data we can deduce the behavour of the inventories in Austin
 
 
 
-
-=======
-| -[] Upload documents to Github            | TBD|
-
-Definitions:
-Days on Market: The median number of days property listings spend on the market within the specified geography during the specified month. Time spent on the market is defined as the time between the initial listing of a property and either its closing date or the date it is taken off the market.
 
