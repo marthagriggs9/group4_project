@@ -22,7 +22,7 @@ Based on the three factors which of the two cities is "hotter"?
 
 **House availability**
 **Pricing**
-**Days of properties on the market**
+**Median Days on Market**
 
 ### Datasets to be used:
 
@@ -75,14 +75,14 @@ All of the above shoul be indicators that one house market has more movility -an
 
 ## Current Offer on Austin
 
-As of February 13, 2023 Zillow had 350 listings just in Austin county. There are 5 counties included in the metropolitna area.  
+As of February 13, 2023 Zillow had 350 listings just in Austin county. There are 5 counties included in the Austin metropolitan area.  
 
 ![Map of houses on sale. Austin](./images/Austin_map.png)
         
 
 ## Current Offer on Dallas
 
-As of February 13, 2023 just in Dallas county there were 4023 houses on sale. The metroplex includes 19 counties.
+As of February 13, 2023 just in Dallas county there were 4023 houses on sale. Dallas metropolitan area includes 19 counties.
 
 ![Map of houses on sale. Dallas](./images/dallas_map.png)
 
