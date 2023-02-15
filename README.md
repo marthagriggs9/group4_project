@@ -67,11 +67,11 @@ We decided to run tests of three different variables (inventories, sale prices a
 
 ### The hypothesis we tested were:
 
--Inventories in Dallas are bigger than Austin's
--Days on Market in Dallas are bigger than Austin's
--Prices in Dallas are lower than Austin's
+* Inventories in Dallas are bigger than Austin's
+* Days on Market in Dallas are bigger than Austin's
+* Prices in Dallas are lower than Austin's
 
-All of the above shoul be indicators that one house market has more movility -and demand- than the other.
+All of the above should be indicators that one house market has more mobility -and demand- than the other.
 
 ## Current Offer on Austin
 
@@ -99,9 +99,9 @@ As of February 13, 2023 just in Dallas county there were 4023 houses on sale. Da
 ## INVENTORIES
 
 - The inventories in both cities differ greatly, however the gap has decreased greatly since the pandemic.
-- Dallas had the biggest amount of inventories but this trend has changed sin the pandemic what has resulted in more variability of this indicator over time. 
-- In the period analyzed inventories in Austin and Dallas went from 6,541 and 17,066 houses to 73,76 and 10,137, this is an increase for Austin of 6% and a decrease for Dallas of 41%, respectively
--
+- Dallas had the biggest amount of inventories but this trend has changed since the pandemic which has resulted in more variability of this indicator over time. 
+- In the period analyzed inventories in Austin and Dallas went from 6,541 and 17,066 houses to 73,76 and 10,137 respectively; this is an increase for Austin of 6% and a decrease for Dallas of 41%.
+
 
 ![Inventories over time](./images/Bar_graph_Inventory.png)
 
@@ -110,7 +110,7 @@ As of February 13, 2023 just in Dallas county there were 4023 houses on sale. Da
 ## DAYS ON THE MARKET
 
 - Historically properties in Austin were listed for longer on market compared to Dallas. 
-- Over the years, Dallas properties days on market pattern  shifted since the pandemic. 
+- Over the years, Dallas properties days on market pattern shifted since the pandemic. 
 - Properties in Austin were sold within 20 days of being listed between time period 2021 to mid 2022. 
 
 ![Relation between Days on Market in Austin and Dallas](./images/days_on_market_over_time.png)
@@ -144,9 +144,9 @@ In the graphs is more evident that prices and day on the market are also disimil
 
 ![Comparision Austin Dallas. Days on Market](./images/bloxplot_daysonmarket.png)
 
-From looking at the data we can deduce the behavour of the inventories in Austin and Dallas are totally different. However we can not say the same for the others. Running Ttests we saw the prices and days on the market variables also differ  between cities. 
+From looking at the data we can deduce the behavior of the inventories in Austin and Dallas are totally different. However we can not say the same for the others. Running Ttests we saw the prices and days on the market variables also differ between cities. 
 
-These resultas are presented below:
+These results are presented below:
 
 Calculations for Inventory t-test: t-statistic(-20.5068) , p-value ( 0.0000)
 As the p-value is less than our critical value (0.05) the hypothesis is rejected
@@ -160,7 +160,22 @@ As the p-value is less than our critical value (0.05) the hypothesis is rejected
 These findings imply both markets are different and we can choose between them.
 
 Conclusion:
+* Based on our data we were able to confirm that Dallas does have more inventories than Austin. 
+* The homes in Dallas were on the market longer up until the pandemic in 2019, after the pandemic the market had a major shift and home were not lasting very long on the market.
+* The buyer spending pattern over listed price is close across both cities until 2019. During the pandemic, around 2021 is when real estate in Austin saw a huge shift of customers willing to pay a premium over listed price. This trend lasted for about an year and the customer pattern of paying over listed price is declining.
 
+Limitations to note: 
+* Dallas is geographically larger compared to Austin. Dallas metro is made up of 19 counties however Austin has only 5
+
+* COVID 19/Pandemic- Market trends began to change and the housing market is still changing
+
+* Population Influxes- How many people were moving to and from each of these areas
+
+* New Construction- How many residential new builds were added
+
+* Average Income
+
+###### Note: Based on articles published by fed reserve and government aids, US households accumulated more savings in 2020 and through the summer of 2021, given that without the spending components such as travel, leisure etc was shut down, indirectly driving buyers to compete against the market competition to secure a place they can call their own. These buyers could have contributed to the outliers in the dataset.
 
 
 
