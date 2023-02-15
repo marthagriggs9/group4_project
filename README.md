@@ -134,6 +134,9 @@ First we calculated the metrics for the variables on both markets.
 Austin|   2.375871e+06|           8187.569583|          150.865414|
 Dallas|   1.215040e+07|            5284.641456|          148.265649|
 
+![image](https://user-images.githubusercontent.com/115905663/218923446-0771c7dc-4138-485c-b8bf-3a29ac5a95a7.png)
+
+
 
 Plotting the data we see again that the distribution of the inventories differs greatly. 
 In the graphs is more evident that prices and day on the market are also disimilar. 
